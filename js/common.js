@@ -13,6 +13,20 @@ $(document).ready(function() {
 	// ScrollTo
 	$('.navbar-collapse a').mPageScroll2id();
 	*/
+	// colors
+	var color = $('.colors div.red').css('background-color');
+/*		
+	if (color == 'rgb(68, 46, 51)') {
+		alert('збс');
+	}
+	else {
+		alert('не збс');
+	}
+*/
+	$('.red').click(function(){
+		this.closest('.product_circle img').attr('src', 'img/bag_2.png');
+	});
+
 
 
 	//popup
@@ -33,7 +47,8 @@ $(document).ready(function() {
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		nextArrow: '.bags_next',
-		speed: 50,
+		speed: 100,
+		swipe: false,
 		prevArrow: '.bags_prev',
 		responsive: [
 			{
