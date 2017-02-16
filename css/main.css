@@ -128,17 +128,19 @@ footer span {
 	text-align: center;
 	position: relative;
 	background-color: #fcbccd;
-	padding: 60px 50px 70px;
+	padding: 62px 50px 70px;
 }
 .form_wrapper h6 {
 	color: #5a1b52;
 	font: 3.6rem "PT_Serif-Web-Bold", sans-serif;
 	margin-top: 0;
+	margin-bottom: 1.6rem;
 }
 .form_wrapper p {
 	font: 2rem "Lato-Regular", sans-serif;
 	color: #424242;
 	line-height: 3rem;
+	margin-bottom: 2.8rem;
 }
 .form_wrapper p span {
 	font-family: "Lato-Bold", sans-serif;
@@ -193,13 +195,13 @@ label.error {
 	-moz-box-shadow: inset 0 2px 7px #c16f85;
 	box-shadow: inset 0 2px 7px #c16f85;
 	border: solid 1px #83397a;
-	margin-top: 1.5rem;
+	margin-top: 1.3rem;
 	text-align: center;
 }
 .form button {
 	width: 100%;
 	max-width: 370px;
-	margin-top: 1.5rem;
+	margin-top: 1.3rem;
 }
 .slider_wrapper {
 	position: relative;
@@ -259,16 +261,19 @@ label.error {
 .prev:hover {
 	background-image: url(../img/prev_hover.png);
 }
-h1{
+h1 {
 	font: 6.5rem "PT Serif Caption", sans-serif;
 	color: #5a1b52;
 	line-height: 6rem;
 	float: none!important;
+	margin-top: 4.1rem;
+	margin-bottom: 2.6rem;
 }
 h2 {
 	color: #5a1b52;
 	font: 3rem "Lato-Bold", sans-serif;
 	float: none!important;
+	margin-bottom: 1.8rem;
 }
 header {
 	background-image: url(../img/header_bg.jpg);
@@ -303,6 +308,7 @@ header {
 	font: 1.5rem "Lato-Bold", sans-serif;
 	text-transform: uppercase;
 	color: #fff;
+	letter-spacing: 1px;
 	text-shadow: 2px 1px rgba(0,0,0,.95);
 	-webkit-box-shadow: 0 3px 16px rgba(44,35,20,.5);
 	-moz-box-shadow: 0 3px 16px rgba(44,35,20,.5);
@@ -333,6 +339,9 @@ header {
 	background-image: linear-gradient(to top, #8f3f84, #67275f);
 	transition: all ease .3s;
 }
+.logo {
+	padding-top: 6px;
+}
 .logo img {
 	width: 100%;
 	max-width: 170px;
@@ -344,17 +353,23 @@ header {
 .desc {
 	font-size: 1.6rem;
 	color: #2e2e2e;
+	padding-top: 3px;
 }
 .top_phone {
 	font-family: "Lato-Bold", sans-serif;
+	text-align: right;
+	padding-top: 12px;
 }
 .main_head ul {
 	list-style-type: disc;
-	padding-left: 32px;
+	padding-left: 1.5rem;
+	margin-bottom: 3rem;
+	margin-left: .5rem;
 }
 .main_head ul li {
 	font-size: 3rem;
 	color: #5a1b52;
+	margin-bottom: .4rem;
 }
 .main_head ul li span {
 	font: 2rem "Lato-Bold", sans-serif;
@@ -383,13 +398,13 @@ header {
 	max-width: 100%;
 }
 .present {
-	padding-top: 15rem;
+	padding-top: 13.7rem;
 }
 .present .row {
 	margin-bottom: 3rem;
 }
 .present h3 {
-	margin-bottom: 11rem;
+	margin-bottom: 11.4rem;
 }
 .present_bg {
 	position: relative;
@@ -403,7 +418,7 @@ header {
 	width: 100%;
 	height: 1513px;
 	margin: auto;
-	top: -147px;
+	top: -161px;
 }
 .earn {
 	padding-top: 40px;
@@ -455,17 +470,22 @@ header {
 }
 .cert {
 	background-image: url(../img/cert_bg.png);
-	background-position: 45% top;
+	background-position: 49.5% top;
 	top: -60px;
+	padding-bottom: 50px;
 }
 .cert h3 {
 	color: #424242;
 	font-size: 4.8rem;
-	margin-bottom: 4.5rem;
-	margin-top: 5rem;
+	margin-bottom: 4rem;
+	margin-top: 5.7rem;
+	line-height: 6rem;
 }
 .cert h3 span {
 	color: #ac3f9f;
+}
+.cert .left_cert {
+	right: 21px;
 }
 .cert .left_cert p {
 	color: #424242;
@@ -484,11 +504,14 @@ header {
 }
 .cert .form_wrapper {
 	background-color: transparent;
-	left: 70px;
+	left: 49px;
 }
 .product {
 	padding-top: 0;
 	top: -30px;
+}
+.product h3 {
+	margin-bottom: 2rem;
 }
 .product h4 {
 	color: #424242;
@@ -618,7 +641,7 @@ header {
 	content: "";
 	position: absolute;
 	top: 5px;
-	left: 0;
+	left: -29px;
 	background-image: url(../img/eco_row_3.jpg);
 	background-position: center top;
 	height: 100%;
@@ -629,7 +652,7 @@ header {
 	content: "";
 	position: absolute;
 	top: 5px;
-	left: 0;
+	left: -29px;
 	background-image: url(../img/eco_row_2.jpg);
 	background-position: center top;
 	height: 100%;
@@ -640,14 +663,14 @@ header {
 	content: "";
 	position: absolute;
 	top: 5px;
-	left: 0;
+	left: -29px;
 	background-image: url(../img/eco_row_1.jpg);
 	background-position: center top;
 	height: 100%;
 	width: 1258px;
 	background-repeat: no-repeat;
 }
-.row div {
+.eco .row div {
 	max-height: 100%;
 }
 .eco h3 {
@@ -695,7 +718,7 @@ header {
 	color: #dfcab9;
 }
 .eco .row .col-md-4:last-of-type span {
-	right: -94px;
+	right: -65px;
 }
 .eco .row .col-md-4:nth-of-type(2) span {
 	right: 0;
@@ -703,7 +726,7 @@ header {
 	text-align: center;
 }
 .eco .row .col-md-4:first-of-type span {
-	left: -30px;
+	left: -55px;
 }
 .discount {
 	background-image: url(../img/discount_bg.png);
