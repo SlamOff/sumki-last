@@ -807,6 +807,7 @@ header {
 .review {
 	background-color: #fbf7e0;
 	padding-top: 7rem;
+	overflow: hidden;
 }
 .review .quote {
 	color: #fff;
